@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    background-image: url(https://images.hdqwalls.com/download/time-clock-fractal-pb-1920x1080.jpg);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+
+  /* Define the animation */
+  animation: moveBackground 100s linear infinite;
+}
+
+@keyframes moveBackground {
+    0% { background-position: 0 0; }
+    50% { background-position: -110px 0; } /* Move forward halfway */
+    100% { background-position: 110px 0; } /* Move back to the initial position */
+}
+
+.registratie-container {
+    width: 500px;
+    height: auto;
+    padding: 50px 30px;
+    margin: 30px auto;
+    background-color: #1a1720;
+    box-shadow:  5px 10px #020202;
+    border: 4px solid white;
+    color: white;
+}
+
+.tekst-input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+.titel {
+    width: 100px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+}
+
+.input {
+    width: auto;
+    height: 20px;
+    float: right;
+    padding: 13px 6px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 16px;
+    transition: border-bottom-color 0.3s ease;
+    font-family: sans-serif;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-bottom-color: #4c8bf5;
+  }
+  
+  .input::placeholder {
+    color: #999;
+  }
+  
+  /* Animation */
+  
+  
+
+.Submit {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    left: 333px;
+    bottom: -35px;
+
+}
+
+.Submit:hover {
+    background-color: #fff;
+    color: black;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0);
+}
+
+.Title, h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.terug {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.terug:hover {
+    background-color: rgb(241, 14, 14);
+}
+b{
+    font-family: sans-serif;
+}

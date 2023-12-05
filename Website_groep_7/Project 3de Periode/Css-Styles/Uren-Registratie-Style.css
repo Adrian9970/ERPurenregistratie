@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(fotoregiupdate.jpg);
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+nav {
+    height: 75px;
+    width: 100%;
+    line-height: 70px;
+    padding: 0 100px;
+    background-image: linear-gradient(#033747, #012733);
+    border: solid 3px black;
+}
+
+nav .Logo p{
+    font-size: 30px;
+    font-weight: bold;
+    float: left;
+    letter-spacing: 1,5px;
+    cursor: pointer;
+    color: purple;
+}
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 0 100px;
+    color: white;
+}
+
+nav li a:hover {
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+}
+
+.registratie-container {
+    width: 500px;
+    height: auto;
+    padding: 50px 30px;
+    margin: 30px auto;
+    background-image: linear-gradient(#374041, #39bae1);;
+    box-shadow:  5px 10px #020202;
+}
+
+.tekst-input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+
+.titel {
+    width: 100px;
+    height: 20px;
+    float: left;
+    margin-top: 5px;
+}
+
+.input {
+    width: auto;
+    height: 20px;
+    float: right;
+    padding: 13px 6px;
+}
+
+.Submit {
+    float: right;
+    background-color: red;
+    font-size: 15px;
+    height: 30px;
+    width: 70px;
+    margin-top: 5px;
+}
+
+.Submit:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.Title, h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
